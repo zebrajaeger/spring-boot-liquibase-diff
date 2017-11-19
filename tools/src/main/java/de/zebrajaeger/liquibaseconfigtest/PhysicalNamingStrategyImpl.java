@@ -8,6 +8,10 @@ import org.hibernate.engine.jdbc.env.spi.JdbcEnvironment;
 import java.io.Serializable;
 import java.util.Locale;
 
+/**
+ * 'Heavily inspired' bei edur, https://stackoverflow.com/a/34565182
+ * Thank you for your help edur!
+ */
 public class PhysicalNamingStrategyImpl extends PhysicalNamingStrategyStandardImpl implements Serializable {
 
     public static final PhysicalNamingStrategyImpl INSTANCE = new PhysicalNamingStrategyImpl();
